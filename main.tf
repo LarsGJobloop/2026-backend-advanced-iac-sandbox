@@ -17,7 +17,7 @@ provider "github" {
 
 resource "github_repository" "primary_repo" {
   name = "2026-backend-advanced-iac-sandbox"
-  visibility = "private"
+  visibility = "public"
 }
 
 output "github_repo" {
